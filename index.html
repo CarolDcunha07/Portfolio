@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container text-center">
+            <h1><span class="bold">Carol Jeswin Dcunha</span></h1>
+            <p>Hello! I'm a Computer Science Engineering student</p>
+            <br>
+            <a class="btn scroll" href="#portfolio">See My Work</a>
+        </div>
+    </header>
+
+    <section id="about" class="text-center">
+        <div class="container">
+            <h2>Who Am I?</h2>
+            <p>I'm Carol. I have diverse experience in machine learning, web development, and IoT-based embedded systems.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="text-center">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <strong>Python</strong>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" style="width: 80%; background-color: #00ff6c;"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <strong>SQL</strong>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" style="width: 75%; background-color: #00ff6c;"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <strong>IoT Integration</strong>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" style="width: 75%; background-color: #00ff6c;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="text-center">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <img src="images/agri.jpeg" alt="Project 1" class="img-fluid">
+                        <h3>Agriculture Crop Monitoring Robot</h3>
+                        <p>Designed and built an agricultural robot using ESP32 and Arduino.cc. Utilized embedded C for programming. Integrated sensors for soil moisture, temperature, and humidity measurement. Used an ultrasonic sensor for obstacle detection by setting threshold value of about 50cm. Implemented IoT connectivity for remote control via a mobile app.</p>
+                        <a href="https://github.com/CarolDcunha07/Agricultural-Bot-using-IOT" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <img src="images/court.jpeg" alt="Project 2" class="img-fluid">
+                        <h3>Court Case Management System</h3>
+                        <p>Created a court case management system using HTML, CSS, and PHP. Designed user-friendly features allowing users to check case status effortlessly. Implemented functionality for accessing detailed hearing information. Added an announcement section for court-related notices and important information.</p>
+                        <a href="https://github.com/CarolDcunha07/court_case_dbms" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <img src="images/fraud_gui.jpeg" alt="Project 3" class="img-fluid">
+                        <h3>Real-Time Credit Card Fraud Detection Using XGBoost</h3>
+                        <p>Developed a real-time credit card fraud detection tool using Streamlit and XGBoost with 95.58% accuracy to improve transaction security. Used machine learning algorithms like XGBoost, Random Forest, and Decision Tree for accurate fraud detection. Used SMOTE to handle class imbalance and increase detection accuracy. Performed data preprocessing and visualization.</p>
+                        <a href="https://github.com/avishashetty/Fraud_Analysis_Research_Internship" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <p>Made by Carol Dcunha</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
